@@ -1,9 +1,11 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: gainsboro;
     font-family: 'Times New Roman', Times, serif;
     outline: none;
+}
+html{
+    background: #333332;
 }
 .container{
     height: 100vh;
