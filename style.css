@@ -4,17 +4,15 @@
     font-family: 'Times New Roman', Times, serif;
     outline: none;
 }
-html{
-    background: #333332;
-}
 .container{
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: whitesmoke;
 }
 .calculator{
-    background-color: white;
+    background-color: #ecf0f3;
     padding: 15px;
     border-radius: 30px;
     box-shadow: inset 5px 5px 12px white,5px 5px 12px rgba(0,0,0,.16);
@@ -26,9 +24,9 @@ input{
     height: 70px;
     width: 260px;
     background-color: seashell;
-    box-shadow: inset -5px -5px 12px white,5px 5px 12px rgba(0,0,0,.16);
+    box-shadow: inset -5px -5px 12px white, inset 5px 5px 12px rgba(0,0,0,.16);
     border: none;
-    border-radius: 30px;
+    border-radius: 15px;
     color: silver;
     font-size: 50px;
     text-align: end;
@@ -39,16 +37,16 @@ input{
 button{
     height: 50px;
     width: 50px;
-    background-color: gainsboro;
-    box-shadow: inset -5px -5px 12px white,5px 5px 12px rgba(0,0,0,.16);
+    background-color: #ecf0f3;
+    box-shadow: -5px -5px 12px white,5px 5px 12px rgba(102, 97, 97, 0.479);
     border: none;
-    border-radius: 50%;
+    border-radius: 50px;
     margin: 8px;
-    font-size: 15px;
+    font-size: 18px;
 }
 .equal{
     width: 115px;
-    border-radius: 40px;
-    background-color: gainsboro;
-    box-shadow: inset -5px -5px 12px white,5px 5px 12px rgba(0,0,0,.16);
+    border-radius: 15px;
+    background-color: #ecf0f3;
+    box-shadow:  -5px -5px 12px white, 5px 5px 12px rgba(102, 97, 97, 0.479);
 }
